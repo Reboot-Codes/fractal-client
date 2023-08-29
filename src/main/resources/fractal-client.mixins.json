@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rebootcodes.fractalclient.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SettingsButton"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

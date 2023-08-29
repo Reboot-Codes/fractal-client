@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fractal-client",
+  "version": "${version}",
+  "name": "Fractal Client",
+  "description": "A Minecraft utility mod",
+  "authors": [
+    "Reboot-Codes"
+  ],
+  "contact": {
+    "website": "https://github.com/Reboot-Codes/fractal-client",
+    "repo": "https://github.com/Reboot-Codes/fractal-client"
+  },
+  "license": "MIT",
+  "icon": "assets/fractal-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.rebootcodes.fractalclient.FractalClient"
+    ]
+  },
+  "mixins": [
+    "fractal-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
